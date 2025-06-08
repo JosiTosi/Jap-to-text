@@ -9,3 +9,14 @@ while True:
     filepath = record_audio()
     text = transcribe_audio(filepath)
     print(f"📝 Transkribierter Text:\n{text}\n")
+
+
+    from app.services.analyze_service import analyze_text
+
+
+    print(f"📝 Transkribierter Text:\n{text}\n")
+    
+    print("📊 Analyse:")
+    analysis = analyze_text(text)
+    for res in analysis:
+        print(f"- {res['text'][:40]}... → {res['label']} ({res['score']})")
