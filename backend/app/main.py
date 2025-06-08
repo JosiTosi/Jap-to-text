@@ -1,17 +1,11 @@
 from fastapi import FastAPI
-from fastapi.middleware.cors import CORSMiddleware
+from app.api import transcribe
 
-app = FastAPI(title="Jap-to-Text API")
-
-# CORS-Konfiguration
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # Frontend-URL
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+app = FastAPI(
+    title="Jap to Text",
+    description="Intelligentes Speech-to-Text Tool mit ML-Fehlererkennung",
+    version="0.1.0"
 )
 
-@app.get("/")
-async def root():
-    return {"message": "Willkommen bei der Jap-to-Text API"} 
+# Routen registrieren
+app.include_router(transcribe.router, prefix="/api/transcribe")

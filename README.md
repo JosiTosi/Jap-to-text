@@ -58,3 +58,10 @@ Dieses Projekt befindet sich in aktiver Entwicklung. Der Fokus liegt auf Qualit�
 ## 📃 Lizenz
 
 Prototypisch, private Nutzung. Eine offizielle Lizenz wird zu einem späteren Zeitpunkt ergänzt.
+
+## 📋 Umgebungsvariablen
+
+```env
+DEFAULT_LANGUAGE=ja
+MODEL_SIZE=base
+```
