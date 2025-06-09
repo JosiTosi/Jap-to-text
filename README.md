@@ -1,6 +1,6 @@
-# Jap to Text 🗣️➡️📄
+# Yap to Text 🗣️➡️📄
 
-**Jap to Text** ist ein intelligentes Speech-to-Text-Tool, das speziell für die persönliche Nutzung entwickelt wird. Es verwandelt gesprochene Sprache in Text und erkennt dabei Versprecher, thematische Abschweifungen und andere Kontexteffekte. Die Anwendung läuft im Web und erlaubt individuelle Konfigurationen wie z. B. Hotkeys.
+**yap to Text** ist ein intelligentes Speech-to-Text-Tool, das speziell für die persönliche Nutzung entwickelt wird. Es verwandelt gesprochene Sprache in Text und erkennt dabei Versprecher, thematische Abschweifungen und andere Kontexteffekte. Die Anwendung läuft im Web und erlaubt individuelle Konfigurationen wie z. B. Hotkeys.
 
 ## 🚀 Features (in Planung)
 
